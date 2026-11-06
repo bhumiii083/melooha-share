@@ -83,7 +83,7 @@ export async function completeSmall(system: string, user: string): Promise<strin
             method: 'POST',
             headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${process.env.GROQ_API_KEY}` },
             body: JSON.stringify({
-                model: process.env.GROQ_SMALL_MODEL ?? 'llama-3.1-8b-instant',
+                model: process.env.GROQ_SMALL_MODEL ?? 'openai/gpt-oss-20b',
                 response_format: { type: 'json_object' },
                 messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
             }),
