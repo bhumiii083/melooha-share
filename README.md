@@ -6,7 +6,19 @@ Live app: <https://melooha-share.vercel.app>
 
 Backend API: <https://melooha-api.onrender.com>
 
-## Run locally
+## Run locally with Docker
+
+1. Make sure Docker Desktop is installed and running.
+2. Copy `backend/.env.example` to `backend/.env` and fill in your Neon URL and API keys. Do not commit `backend/.env`.
+3. From the repository root, run:
+
+   ```bash
+   docker compose up --build
+   ```
+
+Open <http://localhost:3000>. The backend health endpoint is <http://localhost:4000/api/health>. Stop both containers with `Ctrl+C`.
+
+## Run locally with npm
 
 The backend and frontend run as separate processes, so use two terminal tabs.
 
@@ -40,6 +52,8 @@ The API listens on `http://localhost:4000` by default. Create the database table
    ```
 
 Open <http://localhost:3000>.
+
+If Docker is unavailable or gives you trouble, use the npm commands above. Start the backend with `npm run dev` from `backend`, then start the frontend with `npm run dev` from `frontend` in a second terminal.
 
 ## Environment variables
 
