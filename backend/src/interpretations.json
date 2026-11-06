@@ -1,0 +1,542 @@
+[
+    {
+        "planet": "Sun",
+        "house": 1,
+        "text": "The Sun in the first house emphasizes vitality, confidence, and a desire to express personal purpose."
+    },
+    {
+        "planet": "Sun",
+        "house": 2,
+        "text": "The Sun in the second house highlights self-worth, family values, and a prominent voice."
+    },
+    {
+        "planet": "Sun",
+        "house": 3,
+        "text": "The Sun in the third house supports initiative, communication, and courage in everyday pursuits."
+    },
+    {
+        "planet": "Sun",
+        "house": 4,
+        "text": "The Sun in the fourth house draws attention to home, inner security, and family identity."
+    },
+    {
+        "planet": "Sun",
+        "house": 5,
+        "text": "The Sun in the fifth house encourages creativity, learning, and confident self-expression."
+    },
+    {
+        "planet": "Sun",
+        "house": 6,
+        "text": "The Sun in the sixth house emphasizes discipline, service, and steady attention to responsibilities."
+    },
+    {
+        "planet": "Sun",
+        "house": 7,
+        "text": "The Sun in the seventh house brings focus to partnership, cooperation, and shared recognition."
+    },
+    {
+        "planet": "Sun",
+        "house": 8,
+        "text": "The Sun in the eighth house highlights introspection, transformation, and interest in hidden matters."
+    },
+    {
+        "planet": "Sun",
+        "house": 9,
+        "text": "The Sun in the ninth house supports learning, guiding principles, and exploration of meaning."
+    },
+    {
+        "planet": "Sun",
+        "house": 10,
+        "text": "The Sun in the tenth house emphasizes public contribution, ambition, and purposeful work."
+    },
+    {
+        "planet": "Sun",
+        "house": 11,
+        "text": "The Sun in the eleventh house highlights networks, collective aims, and long-range aspirations."
+    },
+    {
+        "planet": "Sun",
+        "house": 12,
+        "text": "The Sun in the twelfth house encourages reflection, compassion, and attention to spiritual life."
+    },
+    {
+        "planet": "Moon",
+        "house": 1,
+        "text": "The Moon in the first house makes emotional awareness and adaptability visible in personal expression."
+    },
+    {
+        "planet": "Moon",
+        "house": 2,
+        "text": "The Moon in the second house connects emotional security with family, speech, and personal values."
+    },
+    {
+        "planet": "Moon",
+        "house": 3,
+        "text": "The Moon in the third house brings sensitivity and imagination to communication and everyday learning."
+    },
+    {
+        "planet": "Moon",
+        "house": 4,
+        "text": "The Moon in the fourth house emphasizes emotional roots, home life, and the need for inner comfort."
+    },
+    {
+        "planet": "Moon",
+        "house": 5,
+        "text": "The Moon in the fifth house brings feeling and imagination into creativity, affection, and learning."
+    },
+    {
+        "planet": "Moon",
+        "house": 6,
+        "text": "The Moon in the sixth house links emotional steadiness with routines, helpful work, and daily care."
+    },
+    {
+        "planet": "Moon",
+        "house": 7,
+        "text": "The Moon in the seventh house emphasizes empathy, responsiveness, and emotional exchange in relationships."
+    },
+    {
+        "planet": "Moon",
+        "house": 8,
+        "text": "The Moon in the eighth house supports emotional depth, introspection, and interest in life’s transitions."
+    },
+    {
+        "planet": "Moon",
+        "house": 9,
+        "text": "The Moon in the ninth house brings feeling and openness to study, beliefs, and exploration."
+    },
+    {
+        "planet": "Moon",
+        "house": 10,
+        "text": "The Moon in the tenth house connects public roles with empathy, responsiveness, and changing interests."
+    },
+    {
+        "planet": "Moon",
+        "house": 11,
+        "text": "The Moon in the eleventh house emphasizes belonging, supportive friendships, and shared hopes."
+    },
+    {
+        "planet": "Moon",
+        "house": 12,
+        "text": "The Moon in the twelfth house encourages solitude, compassion, and attention to the inner world."
+    },
+    {
+        "planet": "Mars",
+        "house": 1,
+        "text": "Mars in the first house brings initiative, directness, and energetic self-expression."
+    },
+    {
+        "planet": "Mars",
+        "house": 2,
+        "text": "Mars in the second house adds drive to speech, resource management, and the defense of values."
+    },
+    {
+        "planet": "Mars",
+        "house": 3,
+        "text": "Mars in the third house strengthens courage, decisive communication, and practical initiative."
+    },
+    {
+        "planet": "Mars",
+        "house": 4,
+        "text": "Mars in the fourth house directs energy toward home, family responsibilities, and inner foundations."
+    },
+    {
+        "planet": "Mars",
+        "house": 5,
+        "text": "Mars in the fifth house adds boldness and competitive energy to creativity and learning."
+    },
+    {
+        "planet": "Mars",
+        "house": 6,
+        "text": "Mars in the sixth house supports persistence, problem-solving, and energetic service in daily tasks."
+    },
+    {
+        "planet": "Mars",
+        "house": 7,
+        "text": "Mars in the seventh house brings assertiveness and passion to partnership and negotiation."
+    },
+    {
+        "planet": "Mars",
+        "house": 8,
+        "text": "Mars in the eighth house encourages determined investigation and courage through personal change."
+    },
+    {
+        "planet": "Mars",
+        "house": 9,
+        "text": "Mars in the ninth house brings conviction, initiative, and spirited pursuit of knowledge."
+    },
+    {
+        "planet": "Mars",
+        "house": 10,
+        "text": "Mars in the tenth house emphasizes ambition, initiative, and energetic effort in public work."
+    },
+    {
+        "planet": "Mars",
+        "house": 11,
+        "text": "Mars in the eleventh house adds drive to group projects, friendships, and long-term aims."
+    },
+    {
+        "planet": "Mars",
+        "house": 12,
+        "text": "Mars in the twelfth house channels effort toward reflection, private work, and disciplined retreat."
+    },
+    {
+        "planet": "Mercury",
+        "house": 1,
+        "text": "Mercury in the first house emphasizes curiosity, adaptability, and expressive communication."
+    },
+    {
+        "planet": "Mercury",
+        "house": 2,
+        "text": "Mercury in the second house supports thoughtful speech, practical learning, and organizing resources."
+    },
+    {
+        "planet": "Mercury",
+        "house": 3,
+        "text": "Mercury in the third house strengthens communication, curiosity, and skill in everyday learning."
+    },
+    {
+        "planet": "Mercury",
+        "house": 4,
+        "text": "Mercury in the fourth house brings an analytical and communicative approach to home and family."
+    },
+    {
+        "planet": "Mercury",
+        "house": 5,
+        "text": "Mercury in the fifth house supports clever creativity, study, and playful expression."
+    },
+    {
+        "planet": "Mercury",
+        "house": 6,
+        "text": "Mercury in the sixth house favors analysis, organization, and clear communication in service."
+    },
+    {
+        "planet": "Mercury",
+        "house": 7,
+        "text": "Mercury in the seventh house highlights dialogue, negotiation, and intellectual exchange in partnership."
+    },
+    {
+        "planet": "Mercury",
+        "house": 8,
+        "text": "Mercury in the eighth house encourages research, careful inquiry, and communication about complex topics."
+    },
+    {
+        "planet": "Mercury",
+        "house": 9,
+        "text": "Mercury in the ninth house supports study, teaching, and curiosity about diverse philosophies."
+    },
+    {
+        "planet": "Mercury",
+        "house": 10,
+        "text": "Mercury in the tenth house emphasizes communication, planning, and adaptable public contribution."
+    },
+    {
+        "planet": "Mercury",
+        "house": 11,
+        "text": "Mercury in the eleventh house supports networking, shared ideas, and thoughtful pursuit of goals."
+    },
+    {
+        "planet": "Mercury",
+        "house": 12,
+        "text": "Mercury in the twelfth house encourages reflective study, private writing, and quiet observation."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 1,
+        "text": "Jupiter in the first house encourages optimism, generosity, and growth through self-understanding."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 2,
+        "text": "Jupiter in the second house emphasizes generosity, learning, and expansive family values."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 3,
+        "text": "Jupiter in the third house supports confident learning, encouraging communication, and generous cooperation."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 4,
+        "text": "Jupiter in the fourth house emphasizes inner growth, hospitality, and supportive family traditions."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 5,
+        "text": "Jupiter in the fifth house encourages wisdom, creativity, and generous engagement with learning."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 6,
+        "text": "Jupiter in the sixth house supports ethical service, practical learning, and constructive daily habits."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 7,
+        "text": "Jupiter in the seventh house emphasizes mutual respect, shared wisdom, and growth through partnership."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 8,
+        "text": "Jupiter in the eighth house encourages wisdom, trust, and thoughtful study of transformation."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 9,
+        "text": "Jupiter in the ninth house emphasizes philosophy, teaching, and the pursuit of wisdom."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 10,
+        "text": "Jupiter in the tenth house supports ethical leadership, meaningful work, and generous public service."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 11,
+        "text": "Jupiter in the eleventh house encourages supportive networks, shared ideals, and generous aspirations."
+    },
+    {
+        "planet": "Jupiter",
+        "house": 12,
+        "text": "Jupiter in the twelfth house supports compassion, contemplation, and growth through quiet reflection."
+    },
+    {
+        "planet": "Venus",
+        "house": 1,
+        "text": "Venus in the first house emphasizes charm, harmony, and appreciation of beauty in self-expression."
+    },
+    {
+        "planet": "Venus",
+        "house": 2,
+        "text": "Venus in the second house values pleasant speech, aesthetic tastes, and harmony in family life."
+    },
+    {
+        "planet": "Venus",
+        "house": 3,
+        "text": "Venus in the third house brings diplomacy, artistic expression, and warmth to communication."
+    },
+    {
+        "planet": "Venus",
+        "house": 4,
+        "text": "Venus in the fourth house emphasizes comfort, beauty, and harmony in home life."
+    },
+    {
+        "planet": "Venus",
+        "house": 5,
+        "text": "Venus in the fifth house supports artistic creativity, affection, and enjoyment of learning."
+    },
+    {
+        "planet": "Venus",
+        "house": 6,
+        "text": "Venus in the sixth house encourages cooperation, thoughtful service, and harmony in daily routines."
+    },
+    {
+        "planet": "Venus",
+        "house": 7,
+        "text": "Venus in the seventh house emphasizes affection, diplomacy, and a desire for balanced partnership."
+    },
+    {
+        "planet": "Venus",
+        "house": 8,
+        "text": "Venus in the eighth house brings sensitivity, trust, and a search for depth in close bonds."
+    },
+    {
+        "planet": "Venus",
+        "house": 9,
+        "text": "Venus in the ninth house encourages appreciation of art, culture, and shared ideals."
+    },
+    {
+        "planet": "Venus",
+        "house": 10,
+        "text": "Venus in the tenth house highlights diplomacy, aesthetic judgment, and harmony in public work."
+    },
+    {
+        "planet": "Venus",
+        "house": 11,
+        "text": "Venus in the eleventh house supports affectionate friendships, collaboration, and shared enjoyment."
+    },
+    {
+        "planet": "Venus",
+        "house": 12,
+        "text": "Venus in the twelfth house encourages private creativity, compassion, and appreciation of quiet beauty."
+    },
+    {
+        "planet": "Saturn",
+        "house": 1,
+        "text": "Saturn in the first house emphasizes patience, responsibility, and deliberate personal development."
+    },
+    {
+        "planet": "Saturn",
+        "house": 2,
+        "text": "Saturn in the second house encourages careful speech, steady values, and disciplined resource management."
+    },
+    {
+        "planet": "Saturn",
+        "house": 3,
+        "text": "Saturn in the third house supports persistence, thoughtful communication, and patient skill-building."
+    },
+    {
+        "planet": "Saturn",
+        "house": 4,
+        "text": "Saturn in the fourth house emphasizes steady responsibility toward home, family, and inner stability."
+    },
+    {
+        "planet": "Saturn",
+        "house": 5,
+        "text": "Saturn in the fifth house encourages disciplined creativity, patient learning, and thoughtful self-expression."
+    },
+    {
+        "planet": "Saturn",
+        "house": 6,
+        "text": "Saturn in the sixth house supports consistency, responsibility, and gradual improvement in daily work."
+    },
+    {
+        "planet": "Saturn",
+        "house": 7,
+        "text": "Saturn in the seventh house emphasizes commitment, patience, and clear responsibilities in partnership."
+    },
+    {
+        "planet": "Saturn",
+        "house": 8,
+        "text": "Saturn in the eighth house encourages patience, careful boundaries, and resilience through change."
+    },
+    {
+        "planet": "Saturn",
+        "house": 9,
+        "text": "Saturn in the ninth house supports disciplined study, practical wisdom, and mature reflection on beliefs."
+    },
+    {
+        "planet": "Saturn",
+        "house": 10,
+        "text": "Saturn in the tenth house emphasizes responsibility, persistence, and patient progress in public work."
+    },
+    {
+        "planet": "Saturn",
+        "house": 11,
+        "text": "Saturn in the eleventh house encourages dependable friendships, realistic goals, and steady group effort."
+    },
+    {
+        "planet": "Saturn",
+        "house": 12,
+        "text": "Saturn in the twelfth house supports solitude, disciplined reflection, and careful stewardship of private energy."
+    },
+    {
+        "planet": "Rahu",
+        "house": 1,
+        "text": "Rahu in the first house intensifies curiosity about identity, individuality, and new forms of self-expression."
+    },
+    {
+        "planet": "Rahu",
+        "house": 2,
+        "text": "Rahu in the second house heightens interest in speech, personal values, and resource-building."
+    },
+    {
+        "planet": "Rahu",
+        "house": 3,
+        "text": "Rahu in the third house amplifies curiosity, communication, and experimentation with practical skills."
+    },
+    {
+        "planet": "Rahu",
+        "house": 4,
+        "text": "Rahu in the fourth house brings strong focus to belonging, home, and emotional foundations."
+    },
+    {
+        "planet": "Rahu",
+        "house": 5,
+        "text": "Rahu in the fifth house intensifies creative ambition, intellectual curiosity, and desire for recognition."
+    },
+    {
+        "planet": "Rahu",
+        "house": 6,
+        "text": "Rahu in the sixth house brings strong focus to problem-solving, service, and improving routines."
+    },
+    {
+        "planet": "Rahu",
+        "house": 7,
+        "text": "Rahu in the seventh house intensifies curiosity about partnership, cooperation, and social connection."
+    },
+    {
+        "planet": "Rahu",
+        "house": 8,
+        "text": "Rahu in the eighth house draws attention to research, hidden subjects, and personal transformation."
+    },
+    {
+        "planet": "Rahu",
+        "house": 9,
+        "text": "Rahu in the ninth house encourages unconventional study, travel, and exploration of belief systems."
+    },
+    {
+        "planet": "Rahu",
+        "house": 10,
+        "text": "Rahu in the tenth house amplifies ambition, visibility, and interest in unusual career paths."
+    },
+    {
+        "planet": "Rahu",
+        "house": 11,
+        "text": "Rahu in the eleventh house intensifies networking, collective ambitions, and pursuit of future goals."
+    },
+    {
+        "planet": "Rahu",
+        "house": 12,
+        "text": "Rahu in the twelfth house draws curiosity toward solitude, imagination, and unfamiliar inner experiences."
+    },
+    {
+        "planet": "Ketu",
+        "house": 1,
+        "text": "Ketu in the first house encourages inwardness, simplicity, and reflection on personal identity."
+    },
+    {
+        "planet": "Ketu",
+        "house": 2,
+        "text": "Ketu in the second house invites reflection on speech, family traditions, and attachment to possessions."
+    },
+    {
+        "planet": "Ketu",
+        "house": 3,
+        "text": "Ketu in the third house supports independent learning, quiet courage, and selective communication."
+    },
+    {
+        "planet": "Ketu",
+        "house": 4,
+        "text": "Ketu in the fourth house encourages inner reflection, simplicity, and a search for emotional grounding."
+    },
+    {
+        "planet": "Ketu",
+        "house": 5,
+        "text": "Ketu in the fifth house brings introspection to creativity, study, and personal expression."
+    },
+    {
+        "planet": "Ketu",
+        "house": 6,
+        "text": "Ketu in the sixth house supports detached problem-solving, modest service, and simplifying routines."
+    },
+    {
+        "planet": "Ketu",
+        "house": 7,
+        "text": "Ketu in the seventh house encourages reflection on independence, compromise, and meaningful partnership."
+    },
+    {
+        "planet": "Ketu",
+        "house": 8,
+        "text": "Ketu in the eighth house supports introspection, spiritual inquiry, and simplicity through life’s changes."
+    },
+    {
+        "planet": "Ketu",
+        "house": 9,
+        "text": "Ketu in the ninth house encourages independent inquiry and reflection on inherited beliefs."
+    },
+    {
+        "planet": "Ketu",
+        "house": 10,
+        "text": "Ketu in the tenth house invites reflection on ambition, public identity, and meaningful contribution."
+    },
+    {
+        "planet": "Ketu",
+        "house": 11,
+        "text": "Ketu in the eleventh house encourages selectivity in friendships and reflection on collective aims."
+    },
+    {
+        "planet": "Ketu",
+        "house": 12,
+        "text": "Ketu in the twelfth house supports contemplation, solitude, and release from unnecessary attachments."
+    }
+]

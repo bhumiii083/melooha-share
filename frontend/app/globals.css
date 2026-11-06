@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-bitter), Georgia, "Times New Roman", serif;
+  --color-gold: #f5c86a;
+  --color-plum: #4a0b34;
+  --color-rose: #8a1c5c;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100dvh;
+  color: white;
+  font-family: var(--font-sans);
+  background: linear-gradient(168deg, #4a0b34 0%, #641244 46%, #8a1c5c 100%);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(245, 200, 106, 0.7) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 78% 14%, rgba(255, 255, 255, 0.75) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 86% 72%, rgba(245, 200, 106, 0.55) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 24% 78%, rgba(255, 255, 255, 0.5) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 58% 42%, rgba(255, 255, 255, 0.4) 0 1px, transparent 1.4px);
+}
+
+:focus-visible {
+  outline: 2px solid #f5c86a;
+  outline-offset: 3px;
+}
+
+input,
+select,
+textarea {
+  color-scheme: dark;
+}
+
+dialog {
+  color: white;
+  max-width: calc(100% - 1.5rem);
+}
+
+dialog::backdrop {
+  background: rgba(12, 2, 8, 0.82);
+}
+
+dialog.sheet {
+  position: fixed;
+  inset: auto 0 0 0;
+  width: min(28rem, 100%);
+  margin: 0 auto;
+  border: 0;
+  border-radius: 1.6rem 1.6rem 0 0;
+  background: linear-gradient(180deg, #6a1648 0%, #3d0a2c 100%);
+  padding: 0.85rem 1.25rem calc(1.25rem + env(safe-area-inset-bottom));
+}
+
+dialog.card-modal {
+  margin: auto;
+  width: min(26rem, calc(100% - 1.5rem));
+  max-height: calc(100dvh - 1rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.flip-stage {
+  display: flex;
+  justify-content: center;
+  height: min(58dvh, 28rem);
+  perspective: 900px;
+}
+
+.flip-card {
+  width: min(20rem, calc(58dvh * 5 / 7));
+  height: 100%;
+  aspect-ratio: 5 / 7;
+  transform-style: preserve-3d;
+  animation: flip360 1.15s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes flip360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.spark {
+  position: absolute;
+  animation: sparkle 1.25s ease-out both;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: scale(0.25) rotate(0deg);
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.25) rotate(36deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
