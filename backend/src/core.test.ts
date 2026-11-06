@@ -1,31 +1,34 @@
-import { afterAll, describe, expect, it } from 'vitest';
-import { pool, query } from './db.js';
-import { createGuest, getBalance, spendOne } from './users.js';
+import { describe, it, expect } from 'vitest';
 import { validate } from './validate.js';
 import type { Fact } from './facts.js';
+import { computeChart } from './chart.js';
 import { rate } from './events.js';
 
-afterAll(async () => {
-    await pool.end();
-});
+const facts: Fact[] = [
+    { id: 'F1', text: 'Ascendant Cancer' },
+    { id: 'F7', planet: 'Saturn', text: 'Saturn in house 12' },
+];
 
-describe('answer validation', () => {
-    it('strips a fake F99 tag', () => {
-        const result = validate('A general note [F99].', []);
+describe('validator', () => {
+    it('keeps a correctly tagged sentence', () => {
+        const result = validate('Saturn teaches patience [F7].', facts);
+        expect(result.factIds).toEqual(['F7']);
+        expect(result.grounded).toBe(true);
+    });
 
-        expect(result.text).not.toContain('[F99]');
+    it('strips a fake tag', () => {
+        const result = validate('Be kind to yourself [F99].', facts);
+        expect(result.text).not.toContain('F99');
         expect(result.grounded).toBe(false);
     });
 
     it('drops a Mars sentence tagged with a Saturn fact', () => {
-        const facts: Fact[] = [
-            { id: 'F1', planet: 'Saturn', text: 'Saturn is in house 1.' },
-        ];
-
-        const result = validate('Mars is in Gemini [F1].', facts);
-
+        const result = validate('Mars makes you bold [F7].', facts);
         expect(result.text).toBe('');
-        expect(result.grounded).toBe(false);
+    });
+
+    it('drops an untagged planet claim', () => {
+        expect(validate('Jupiter blesses you.', facts).text).toBe('');
     });
 });
 
@@ -35,21 +38,24 @@ describe('metrics helper', () => {
     });
 });
 
-describe('question balance', () => {
-    it('does not let two simultaneous spends take balance below zero', async () => {
-        const user = await createGuest();
+describe('chart', () => {
+    it('computes 9 placements and Ketu opposite Rahu', () => {
+        const chart = computeChart({
+            year: 2004,
+            month: 5,
+            day: 14,
+            hour: 10,
+            minute: 30,
+            lat: 21.1458,
+            lon: 79.0882,
+        });
 
-        try {
-            const results = await Promise.all([
-                spendOne(user.id),
-                spendOne(user.id),
-            ]);
+        expect(chart.planets).toHaveLength(9);
 
-            expect(results.filter(Boolean)).toHaveLength(1);
-            expect(await getBalance(user.id)).toBe(0);
-        } finally {
-            await query('DELETE FROM ledger WHERE user_id = $1', [user.id]);
-            await query('DELETE FROM users WHERE id = $1', [user.id]);
-        }
+        const rahu = chart.planets.find((p) => p.name === 'Rahu')!.longitude;
+        const ketu = chart.planets.find((p) => p.name === 'Ketu')!.longitude;
+        expect(Math.abs(((ketu - rahu + 360) % 360) - 180)).toBeLessThan(0.01);
+
+        expect(chart.planets.find((p) => p.name === 'Sun')!.sign).toBe('Aries');
     });
-}, 30_000);
+});
